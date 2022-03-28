@@ -1,6 +1,10 @@
 module.exports = {
   siteMetadata: {
+    title: "業務システムHack",
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
+  plugins: [
+    "gatsby-plugin-image",
+    "gatsby-plugin-sharp",
+  ],
 }
